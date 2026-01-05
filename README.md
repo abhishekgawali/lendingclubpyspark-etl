@@ -13,16 +13,18 @@ be used for credit risk analysis and reporting.
 - Format: CSV
 
 ## Project Structure
+```text
 lendingclub-pyspark-etl/
-├── notebooks/
-│ ├── 01_project_overview.ipynb
-│ ├── 02_customers_data_cleaning.ipynb
-│ ├── 03_loans_data_cleaning.ipynb
-│ ├── 04_loan_repayments_cleaning.ipynb
-│ └── 05_loan_defaulters_cleaning.ipynb
-├── data_dictionary/
-│ └── lending_club_data_dictionary.csv
+├── notebook/
+│   ├── LendingClub_Intro.ipynb
+│   ├── LendingClub_DataCleaning_S1.ipynb
+│   ├── LendingClub_DataCleaning_S2.ipynb
+│   ├── LendingClub_DataCleaning_S3.ipynb
+│   └── LendingClub_DataCleaning_S4.ipynb
+├── data-dictionary/
+│   └── Lending Club Data Dictionary.csv
 └── README.md
+```
 
 ## Key Transformations
 - Schema enforcement
@@ -35,4 +37,5 @@ lendingclub-pyspark-etl/
 ## Technologies Used
 - Apache Spark (PySpark)
 - Spark SQL
+
 - Jupyter Notebooks
